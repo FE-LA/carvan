@@ -1,0 +1,178 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*  */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-family: 'Poppins',san-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  :root{
+    --main-color: rgb(39, 174, 96);
+  }
+h1{
+    font-size: 6rem;
+}
+h2{
+    font-size: 4.5rem;
+}
+h3{
+    font-size: 4rem;
+}
+h4{
+    font-size: 3.5rem;
+}
+h5{
+    font-size: 3rem;
+}
+h6{
+    font-size: 2.5rem;
+}
+  a{
+    text-decoration: none;
+    color:black;
+font-size: 2.3rem;
+  }
+ li{
+    list-style: none;
+  }
+body{
+    height: 200rem;
+}
+/*  */
+/* navbar */
+nav{
+    display: flex;
+    align-items: center;
+ padding: 2rem 3%;
+ height: 10vh;
+ right: 0;top: 0;left: 0;bottom: 0;
+justify-content: space-between;
+box-shadow: 2px 2px 8px rgba(0,0,0,.2);
+  }
+ nav.active{
+ position: fixed;
+    padding: 1.5rem initial;
+    height: 7vh;
+    transition: all 2s ease-out;
+  }
+
+
+  nav .LinkContainer{
+    display: flex;
+align-items: center;
+gap:1rem;
+  }
+  nav .LinkContainer a{
+padding: .5rem 1rem;
+/* margin: 0 1rem.]; */
+font-size: 1.8rem;
+border-radius:.6rem;
+
+  }
+  nav .LinkContainer a.active{
+    background: var(--main-color);
+    color:white;
+  }
+  nav .LinkContainer a:hover,nav .icons > div:hover
+  {
+    background: var(--main-color);
+    color:white;
+    transition: all .5s ease;
+  }
+
+nav .icons > div{
+    font-size: 2rem;
+    line-height: 4rem;
+    width: 4rem;text-align: center;
+    cursor: pointer;
+background-color: rgba(0,0,0,.1);
+border-radius: 2rem;
+margin: 0 .2rem;
+transform: rotate(0);
+}
+nav .icons > div.fa-bars{
+    display: none;
+}
+
+
+
+
+
+  
+ /* mdqs */
+
+ @media (max-width:1100px) {
+ nav .LinkContainer a{
+        font-size: 1.5rem;
+    }
+} 
+
+
+/* responsiveness for nav */
+@media(max-width:996px){
+    html{
+        font-size: 57.5%;
+    }
+    
+   nav .icons div.fa-bars{
+    display: inline-block;
+         
+ }
+    nav {
+        position: relative;padding-left: 6%;padding-right: 6%;
+      }
+    nav .LinkContainer{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        display: flex;
+text-align: center;
+        justify-content: center;
+        flex-direction: column !important;
+        width: 40rem;
+        gap:2rem 0rem;
+        height: 100vh;
+        right: -105%;
+        transition: 2s;
+        box-shadow: 0 0 8px rgba(0,0,0,.2);
+    }
+    nav .LinkContainer.active{
+      right: 0;
+
+    }
+    nav .LinkContainer a{
+        width: inherit;
+        font-size: 3rem;
+    }
+    nav .LinkContainer a.active{
+       color: var(--main-color);
+         background:white;
+      }
+      nav .LinkContainer a:hover
+      {
+        color: var(--main-color);
+        background:white;
+        transition: all .5s ease;
+      }
+   
+}
+/* end */
+  @media (max-width:770px) {
+    html{
+        font-size: 52%;
+    }
+  }
+  @media (max-width:550px) {
+    html{
+        font-size: 47%;
+    }
+  }
+  @media (max-width:426px) {
+    html{
+        font-size: 43%;
+    }
+  }
