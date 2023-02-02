@@ -31,6 +31,9 @@ h5{
 h6{
     font-size: 2.5rem;
 }
+p{
+  font-size: 2rem;
+}
   a{
     text-decoration: none;
     color:black;
@@ -99,6 +102,222 @@ nav .icons > div.fa-bars{
 }
 
 
+.footer {
+  padding: 3rem 1.4%;
+  background: rgb(0 , 0 , 0 , .9);
+  height: 75vh;
+}
+
+.footer-div{
+  width: 25%;
+  float: left;
+  padding: 10px;
+
+}
+
+.footer:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer .footer-div h2{
+  font-size: 2.7rem;
+}
+.footer .footer-div.main-div h2{
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer .footer-div.main-div h2>i{
+  padding-right: 1.4rem;
+  color: rgb(13, 177, 21);
+}
+
+.footer .footer-div.main-div p.title{
+  font-size: 1.7rem;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  color: #eee;
+}
+
+.footer .footer-div.main-div p.Lorem1{
+  font-size: 1.5rem;
+  font-weight:300;
+  color:rgb(185, 185, 185);
+  letter-spacing: 1.3px;
+  padding-block: 1.7rem .8rem;
+}
+
+.footer .footer-div.main-div p.Lorem2{
+  font-size: 1.5rem;
+  font-weight:300;
+  color:rgb(185, 185, 185);
+  letter-spacing: 1.3px;
+}
+
+
+.footer .footer-div.main-div a {
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+.footer .footer-container .footer-div.main-div .socials {
+  padding: 1.3rem .5rem;
+}
+
+.footer .footer-container.main-div .social-link{
+  padding-block: 1.3rem .8rem !important;
+}
+
+.footer .footer-container .main-div .social-link > i{
+  padding-right: 1.1rem ;
+  padding-block: 1.7rem 1.3rem;
+  color: rgb(13, 177, 21);
+}
+
+.footer .footer-container .main-div a.social-link {
+  margin: 2.5rem 0 !important;
+  color: #fff;
+  /* padding-block: 1.7rem .3rem 0 .8rem; */
+}
+
+
+
+.footer .footer-container .main-div .social-links > i {
+  
+  font-size: 2.3rem;
+  background: rgb(13, 177, 21);
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+.footer .footer-container .main-div .social-links {
+  padding-left: 1rem;
+}
+
+
+.footer .footer-div.info-div{
+  padding: 1.4rem 8%;
+  flex-basis: 25%;
+}
+
+.footer .footer-div.info-div h2{
+  line-height: 2;
+  letter-spacing: 1px;
+  color: #fff;
+  /* background: red; */
+}
+
+.footer .footer-div.info-div a{
+  display: block !important; 
+  line-height: 2.5;
+  border-width: 2.1px;
+  font-size: 1.7rem;
+  color: #eee;
+}
+
+.footer .footer-div.useful-div h2{
+  line-height: 2.3;
+  letter-spacing: 1.1px;
+  color: #fff;
+}
+
+
+.footer .footer-div.useful-div{
+  padding-left: 1.7rem;
+}
+
+
+.footer .footer-div.useful-div a {
+  display: block;
+  line-height: 2.7;
+  font-size: 1.7rem;
+  color: #eee !important;
+}
+
+.footer .footer-div.contact-div h2 {
+  letter-spacing: 1px;
+  line-height: 2.3;
+  letter-spacing: 1.1px;
+  color: #fff;
+}
+
+
+.footer .footer-div.contact-div a {
+  display: block ;
+  line-height: 2.7;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.footer .footer-div.contact-div a>i{
+  padding-right: .9rem;
+}
+
+
+
+
+.footer .footer-div.contact-div>i{
+  color: rgb(13, 177, 21);
+  font-size: 2.4rem;
+  position: fixed;
+  right: 7.6%;
+  top: 28.7%;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  background: #181818;
+}
+
+.footer .footer-div.contact-div > button {
+  width:80%;
+  margin-top: 3rem;
+  padding: 2rem 9%;
+  border: 1px solid rgb(13, 177, 21);
+  background: #000000;
+  color: white;
+  font-weight: 200;
+}
+
+.footer .footer-div.contact-div > button:hover{
+  border: .1px dashed rgb(13, 177, 21);
+  background: #000000;
+  color: white;
+  transition: .4s ease-in-out;
+ 
+  
+}
+
+
+.footer .footer-div .link_:hover{
+  color: rgb(13, 177, 21);
+  padding-left: .5rem;
+  transition: .8s ease-in-out;
+}
+
+.footer .footer-div .social-links>i:hover{
+  background: #181818;
+  color: rgb(13, 177, 21);
+  border: 1px solid rgb(13, 177, 21);
+  transition: .2s all ease-in-out;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  padding-left: 1rem;
+}
+
+ 
+
+
+/* .footer-div{
+  width: 25%;
+  float: left;
+  padding: 10px;
+
+} */
 
 
 
@@ -176,3 +395,58 @@ text-align: center;
         font-size: 43%;
     }
   }
+  @media (max-width:1440px) {
+    html{
+        font-size: 49%;
+    }
+}
+
+@media (max-width:996px) {
+    .footer-div{
+        width: 100%;
+    }
+    .footer{
+        height: auto;
+    }
+
+    .footer .footer-div.useful-div{
+      width:25%;
+    }
+
+    .footer .footer-div.info-div{
+        padding: .3rem 5%;
+        width: 29%;
+    }
+
+    .footer .footer-div.contact-div{
+        width: 45%;
+    }
+    
+
+}
+
+@media (max-width:768px) {
+    .footer .footer-div.useful-div{
+        width:50%;
+        height: auto;
+      }
+
+      .footer .footer-div.useful-div h2{
+            line-height: 1.3;
+      }
+  
+      .footer .footer-div.info-div{
+          padding: .3rem 5%;
+          width: 50%;
+      }
+  
+      .footer .footer-div.contact-div{
+          width: 100%;
+          text-align: center;
+        }
+        
+        .footer .footer-div.contact-div>input {
+            width: 100%;
+            text-align: center;
+      }
+}
