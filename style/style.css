@@ -539,6 +539,7 @@ height: 60vh;
       top: 100%;
  display: none !important;
 text-align: center;
+/* <<<<<<< HEAD */
       justify-content: center;
       flex-direction: column !important;
       width: 40rem;
@@ -559,6 +560,17 @@ text-align: center;
   nav .LinkContainer a.active{
     background-color: white;
 color: var(--main-color);
+/* ======= */
+        justify-content: center;
+        flex-direction: column !important;
+        width: 40rem;
+        gap:2rem 0rem;
+        height: 100vh;
+        right: -105%;
+        transition: 2s;
+        box-shadow: 0 0 8px rgba(0,0,0,.2);
+        background: white;
+/* >>>>>>> 99eb02533bd62e269b9e521b754da073ce733eba */
     }
     nav .LinkContainer a:hover
     {
@@ -566,7 +578,23 @@ color: var(--main-color);
       background:white;
       transition: all .5s ease;
     }
- 
+
+    nav .LinkContainer a{
+        width: inherit;
+        font-size: 3rem;
+    }
+    nav .LinkContainer a.active{
+       color: var(--main-color);
+         background:white;
+      }
+      nav .LinkContainer a:hover
+      {
+        color: white;
+        background: var(--main-color);
+        transition: all .5s ease;
+      }
+   
+/* >>>>>>> 99eb02533bd62e269b9e521b754da073ce733eba */
 }
 /* end */
 @media (max-width:770px) {
