@@ -358,6 +358,7 @@ text-align: center;
         right: -105%;
         transition: 2s;
         box-shadow: 0 0 8px rgba(0,0,0,.2);
+        background: white;
     }
     nav .LinkContainer.active{
       right: 0;
@@ -373,8 +374,8 @@ text-align: center;
       }
       nav .LinkContainer a:hover
       {
-        color: var(--main-color);
-        background:white;
+        color: white;
+        background: var(--main-color);
         transition: all .5s ease;
       }
    
